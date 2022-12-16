@@ -13,7 +13,6 @@ type Props = {
 const Category = (
     { src, titleCategory, link }: Props
 ) => {
-    console.log("Datos de mi Category:::", src, titleCategory, link);
     const CSS_HANDLES = [
         "category__item",
         "category__item--title",
@@ -22,7 +21,7 @@ const Category = (
     ];
     const handles = useCssHandles(CSS_HANDLES);
     return (
-        <div className={`pt1 pl5 ${handles["category__item"]}`}>
+        <div className={`${handles["category__item"]}`}>
             <Link
                 to={link.url}
                 className={handles["category__item--link"]}

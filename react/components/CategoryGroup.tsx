@@ -13,19 +13,10 @@ const CategoryGroup = ({
     children
 }: PropsWithChildren<CategoryGroupProps>) => {
     const { isMobile } = useDevice();
-    const { list } = useListContext() || []
-    console.log(categories, children, list);
-    console.log('Lista de Children:::', children);
-    console.log('Lista de Categories:::', list);
-    console.log('Categories:::', categories);
-
-
-
+    const { list } = useListContext() || [];
     const categoriesGroup = getCategoriesAsTSXList(categories);
     const newListContextValue = list.concat(categoriesGroup)
 
-    console.log('categoriesGroup:::', categoriesGroup);
-    console.log('categoriesGroup:::', newListContextValue);
     const CSS_HANDLES = [
         "category__container"
     ]
@@ -37,7 +28,6 @@ const CategoryGroup = ({
                 isMobile
                     ?
                     <div>
-                        <div>Estamos en mobile</div>
                         <div className={handles["category__container"]}>
                             {categoriesGroup}
                         </div>

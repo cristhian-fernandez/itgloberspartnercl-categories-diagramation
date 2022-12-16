@@ -3,7 +3,7 @@
   "name": "categories-diagramation",
   "version": "0.0.1",
   "title": "Categories Diagramation",
-  "description": "Es un contexto de elementos que renderizarán los niveles inferiores de navegación dentro de una lista de categorías con imágenes",
+  "description": "Context of elements that render the lower levels of navigation of a list of categories with images",
   "builders": {
     "react": "3.x",
     "messages": "1.x",
