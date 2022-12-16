@@ -1,0 +1,14 @@
+{
+    "list-context.category-group": {
+        "component": "CategoryGroup",
+        "composition": "children",
+        "allowed": "*",
+        "content": {
+            "properties": {
+                "categories": {
+                    "$ref": "app:itgloberspartnercl.categories-diagramation#/definitions/CategoryGroup"
+                }
+            }
+        }
+    }
+}
