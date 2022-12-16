@@ -3,10 +3,10 @@
 Este elemento va a mostrar los niveles inferiores de navegación dentro de una lista de categorías que contienen imágenes.
 
 ### Versión Desktop
-![Preview](../assets/readme-image__categories-diagramation-desktop.png)
+![Preview](../assets/img/readme-image__categories-diagramation-desktop.png)
 
 ### Versión Mobile
-![Preview](../assets/readme-image__categories-diagramation-mobile.png)
+![Preview](../assets/img/readme-image__categories-diagramation-mobile.png)
 ## Configuration 
 
 ### Paso 1 - Clonar
